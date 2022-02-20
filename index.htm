@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,21 +10,33 @@
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+
 <body>
     <div class="card">
         <div class="payment">
             <p>Payment Details</p>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Visa_2014.svg/2560px-Visa_2014.svg.png" alt="">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Visa_2014.svg/2560px-Visa_2014.svg.png"
+                alt="">
         </div>
         <p id="number">Card Number</p>
-        <p id="card">4000 1234 5678 9010</p>
+        <input id="card" type="text" placeholder="4000 1234 5678 9010">
         <div class="expiration">
             <p>Expiration</p>
             <p>CCV</p>
         </div>
-        <span id="week">January <ion-icon class="i" name="chevron-down-outline"></ion-icon></span>
-        <span id="year">2015<ion-icon class="i" name="chevron-down-outline"></ion-icon></span>
-        <span id="cvv">583</span>
+        <form action="">
+            <select name="weeks" id="week">
+                <option value="January">January</option>
+                <option value="April">April</option>
+                <option value="Mart">Mart</option>
+            </select>
+            <select name="years" id="year">
+                <option value="2015">2015</option>
+                <option value="2016">2016</option>
+                <option value="2017">2017</option>
+            </select>
+            <span id="cvv">583</span>
     </div>
 </body>
+
 </html>

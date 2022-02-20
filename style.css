@@ -56,13 +56,24 @@ img{
 }
 #week{
     margin-left: 10px;
+    background-color: transparent;
+    border: none;
     color: rgb(161, 161, 161);
+    outline: none;
 }
-#year{
+#year{margin-left: 10px;
+    background-color: transparent;
+    border: none;
+    color: rgb(161, 161, 161);
+    outline: none;
     margin-left: 15px;
-    color: rgb(128, 128, 128);
 }
 #cvv{
     margin-left: 260px;
     color: rgb(161, 161, 161);
+}
+#card{
+    background-color: transparent;
+    border: none;
+    outline: none;
 }
