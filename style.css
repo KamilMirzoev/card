@@ -70,11 +70,10 @@ img{
 }
 #cvv{
     width: 50px;
-    left: 64.5%;
     background-color: transparent;
     border: none;
     outline: none;
-    position: absolute;
+    float: right;
     color: rgb(161, 161, 161);
 }
 #card{
