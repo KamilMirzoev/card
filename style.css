@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card{
+    margin-top: 180px;
+    color: white;
+    background-color: black;
+    width: 450px;
+    height: 220px;
+    border-radius: 10px;
+}
+img{
+    width: 100px;
+    height: 50px;
+}
+.payment{
+    width: 90%;
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.payment p{
+    font-weight: 650;
+    margin-left: 10px;
+}
+#number{
+    margin-left: 10px;
+    font-size: 12px;
+    margin-top: 35px;
+    color: rgb(65, 65, 65);
+}
+#card{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 22px;
+    color: rgb(128, 128, 128);
+}
+.expiration{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    display: flex;
+    color: rgb(65, 65, 65);
+    font-size: 15px;
+    justify-content: space-between;
+}
+.i{
+    color: rgb(65, 65, 65);
+}
+#week{
+    margin-left: 10px;
+    color: rgb(161, 161, 161);
+}
+#year{
+    margin-left: 15px;
+    color: rgb(128, 128, 128);
+}
+#cvv{
+    margin-left: 260px;
+    color: rgb(161, 161, 161);
+}
