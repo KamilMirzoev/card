@@ -3,12 +3,12 @@
     margin: 0;
 }
 body{
+    min-height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 .card{
-    margin-top: 180px;
     color: white;
     background-color: black;
     width: 450px;
@@ -69,7 +69,12 @@ img{
     margin-left: 15px;
 }
 #cvv{
-    margin-left: 260px;
+    width: 50px;
+    left: 64.5%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    position: absolute;
     color: rgb(161, 161, 161);
 }
 #card{
