@@ -5,37 +5,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="https://kit.fontawesome.com/99273ef0bb.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 
 <body>
     <div class="card">
-        <div class="payment">
+        <div class="details">
             <p>Payment Details</p>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5a/Visa_2014.svg/2560px-Visa_2014.svg.png"
-                alt="">
+            <img src="https://cardholderbenefitsonline.com/images/visa-logo-w.png" alt="">
         </div>
-        <p id="number">Card Number</p>
-        <input id="card" type="text" placeholder="4000 1234 5678 9010">
-        <div class="expiration">
-            <p>Expiration</p>
-            <p>CCV</p>
+        <span id="txt">Card number</span>
+        <input type="text" placeholder="1234 5678 0000 0000">
+        <div class="cvv">
+            <p>Expirataion</p>
+            <p>CVV</p>
         </div>
-        <form action="">
-            <select name="weeks" id="week">
-                <option value="January">January</option>
-                <option value="April">April</option>
-                <option value="Mart">Mart</option>
-            </select>
-            <select name="years" id="year">
-                <option value="2015">2015</option>
-                <option value="2016">2016</option>
-                <option value="2017">2017</option>
-            </select>
-            <input type="text" id="cvv" placeholder="583">
+        <select name="Months" id="months">
+            <option value="anuary">January</option>
+            <option value="mart">Mart</option>
+            <option value="april">April</option>
+            <option value="may">May</option>
+        </select>
+        <select name="Years" id="years">
+            <option value="2015">2015</option>
+            <option value="2016">2016</option>
+            <option value="2017">2017</option>
+            <option value="2018">2018</option>
+        </select>
+        <span id="txt1">583</span>
     </div>
 </body>
 
