@@ -71,9 +71,9 @@ option{
     margin-left: 80px;
 }
 #txt1{
-    color: #84888a;
-    font-size: 15.5px;
+    background-color: transparent;
     margin-right: 6px;
-    float: right;
-    margin-top: 5px;
+    font-size: 15px;
+    position: absolute;
+    right: -36%;
 }
